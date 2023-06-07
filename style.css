@@ -1,0 +1,375 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+body{
+    background-color: rgb(0, 0, 41);
+
+}
+.nav{
+    width: 97%;
+    padding-left: 13px;
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+    margin: 1%;
+}
+.nav h2{
+    color: red;
+    font-family: sans-serif;
+    font-size: 50px;
+    height: 10vh;
+
+}
+.nav span{
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+.nav span button{
+    background-color: red;
+    width: 70px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.text{
+    width: 97%;
+    padding-left: 13px;
+    height: 60vh;
+}
+.text h1{
+    color: #fff;
+    font-size: 45px;
+    height:20vh;
+    width: 90%;
+    display: flex;
+}
+.text h4{
+    color: #fff;
+    height: 1px;
+    align-items:center;
+    display: flex;
+}
+.text p{
+    color: #fff;
+    font-size: 22px;
+    width: 80%;
+}
+.text div{
+    width: 45%;
+    align-items: center;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text div input{
+    width: 48%;
+    height: 5vh;
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+.text div button{
+    height: 6vh;
+    width: 43%;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-color: transparent;
+    background-color: red;
+    color: #fff;
+    border-radius: 10%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.interface{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50vh;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50vh;
+}
+.one{
+    width: 49%;
+    height:98%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.2%;
+    background-image: linear-gradient(blue,red);
+    color: #fff;
+}
+.two{
+    color: #fff;
+    width: 49%;
+    height:98%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.2%;
+    background-image: linear-gradient(blue,red);
+}
+.three{
+    color: #fff;
+    width: 49%;
+    height:98%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.2%;
+    background-image: linear-gradient(blue,red);
+}
+.four{
+    color: #fff;
+    background-image: linear-gradient(blue,red);
+    width: 49%;
+    height:98%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.2%;
+}
+.one img{
+    width: 100%;
+    height: 10vh;
+}
+.two img{
+    width: 100%;
+    height: 10vh;
+}
+.three img{
+    width: 100%;
+    height: 10vh;
+}
+.four img{
+    width: 100%;
+    height: 10vh;
+}
+.paul{
+    background-color: transparent;
+    color: #fff;
+    width: 60%;
+    height: 20vh;
+    font-size: 20px;
+    margin: 1%;
+}
+.peter{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdowns {
+    position: relative;
+    display: inline-block;
+    margin: 2%;
+}
+
+.dropbtns{
+    background-color: navy;
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.dropdowns-contents {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: rgb(8, 8, 194);
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdowns-contents a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdowns-contents a:hover {background-color: navy}
+
+.dropdowns:hover .dropdowns-contents {
+    display: block;
+}
+
+.dropdowns:hover .dropbtns {
+    background-color: navy;
+}
+.login{
+    height: 90vh;
+    width: 90%;
+    margin: 2%;
+}
+.login p{
+   color: #fff;
+   width: 70%; 
+   font-family: sans-serif;
+   font-size: 17px;
+}
+.login div{
+    height: 7vh;
+    width:50% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login div input{
+    height: 5vh;
+    width: 60%;
+    background-color: rgb(53, 52, 52);
+}
+.login div button{
+    height: 5vh;
+    width: 35%;
+    color: #fff;
+    background-color: red;
+    border-radius: 5%;
+    border-color: transparent;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    height: 90vh;
+    margin: 2%;
+}
+.links a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    cursor: pointer;
+}
+.side{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+select{
+    width: 20%;
+    margin: 2%;
+    cursor: pointer;
+}
+.upper{
+    background-image: url(./1664271579476.jpg);
+    width: 200;
+    margin: 0%;
+    padding: 0%;
+    height: 105vh;
+    
+}
+  
+/*  media query*/
+@media screen and (max-width: 450px){
+    
+    .container{
+    width: 100%;
+    height: 170vh;
+    display:flex;
+    flex-direction:column    
+}
+.interface{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80vh;
+    width:98%;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80vh;
+    width:98%
+}
+    .nav button{
+        width:100%
+    }
+    .text div{
+        width:70%
+    }
+    .login div{
+        width:80%
+    }
+    .one{
+        width: 100%;
+        height:98%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1%;
+        background-image: linear-gradient( rgb(39, 2, 252),rgb(253, 6, 6));
+        color: #fff;
+        justify-content: center;
+    }
+    .two{
+        color: #fff;
+        width: 100%;
+        height:98%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1%;
+        background-image: linear-gradient(blue,red);
+        justify-content: center;
+    }
+    .three{
+        color: #fff;
+        width: 100%;
+        height:98%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1%;
+        background-image: linear-gradient(blue,red);
+        justify-content: center;
+    }
+    .four{
+        color: #fff;
+        background-image: linear-gradient(blue,red);
+        width: 100%;
+        height:98%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1%;
+        justify-content: center;
+    }
+    .one img{
+        width: 50px;
+    }
+    
+    .two img{
+        width: 50px;
+    }
+    
+    .three img{
+        width: 50px;
+    }
+    
+    .four img{
+        width: 50px;
+    }
+    
+}
+
